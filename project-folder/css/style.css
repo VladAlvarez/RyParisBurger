@@ -1,0 +1,59 @@
+.navBar {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    position: relative;
+    width: 90%;
+    height: 60px;
+    background-color: lightcoral;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.navContainer {
+    display: flex;
+    flex-flow: nowrap;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgreen;
+} 
+
+.leftContainer, .rightContainer {
+    display: flex;
+    flex-flow: nowrap;
+}
+
+.leftContainer {
+    justify-content: flex-start;
+    background-color: lightgoldenrodyellow;
+}
+
+.rightContainer {
+    justify-content: flex-end;
+    background-color: lightgrey;
+}
+
+.navLeft, .navRight {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    flex-basis: 300px;
+    align-items: center;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
