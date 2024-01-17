@@ -1,13 +1,17 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .navBar {
     display: flex;
     flex-flow: nowrap;
     justify-content: space-around;
     position: relative;
-    width: 90%;
-    height: 60px;
-    background-color: lightcoral;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(246, 150, 47);
+    margin-bottom: 5px;
 }
 
 .navContainer {
@@ -21,7 +25,6 @@
 
 .leftContainer, .rightContainer {
     display: flex;
-    flex-flow: nowrap;
 }
 
 .leftContainer {
@@ -32,6 +35,7 @@
 .rightContainer {
     justify-content: flex-end;
     background-color: lightgrey;
+    flex-flow: nowrap;
 }
 
 .navLeft, .navRight {
@@ -53,7 +57,11 @@ ul {
     list-style: none;
 }
 
-body {
-    padding: 0;
-    margin: 0;
+.intro {
+
+    background-color: lightblue;
+    background-image: url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
 }
