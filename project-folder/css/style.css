@@ -78,3 +78,58 @@ ul {
     margin-bottom: 50px;
     padding: 0px 15px;
 }
+
+.everydayCategories {
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.everydayContainer {
+    
+    width: 80%;
+    background-color: lightgreen;
+    padding: 40px 0px;
+}
+
+.everydayImagesContainer {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.everydayImages {
+        height: 220px;
+        width: 320px;
+        object-fit: cover;
+        /* transition: transform .2s;     */
+}
+
+/* .everydayImages:hover{
+    transform: scale(1.15);
+} */
+
+.everydayImageText {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: flex-end;
+    width: 320px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.everydayImageText a {
+    /* display: block; */
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: lightcoral;
+    border-radius: 20px;
+}
+
+.everydayImageText a:hover {
+    background-color: aqua;
+    border-radius: 20px;
+}
