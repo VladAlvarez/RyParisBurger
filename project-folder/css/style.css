@@ -58,10 +58,23 @@ ul {
 }
 
 .intro {
-
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
     background-color: lightblue;
     background-image: url("../images/hero-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 540px;
+}
+
+.callToAction {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: lightseagreen;
+    font-size: 10px;
+    margin-bottom: 50px;
+    padding: 0px 15px;
 }
