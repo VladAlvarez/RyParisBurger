@@ -95,7 +95,7 @@ ul {
 .everydayContainer {
     width: 80%;
     background-color: lightgreen;
-    padding: 40px 0px;
+    padding: 30px 0px 60px;
 }
 
 .everydayText {
@@ -157,7 +157,7 @@ ul {
 .healthyContainer {
     width: 80%;
     background-color: lightseagreen;
-    padding: 40px 0px;
+    padding: 30px 0px 60px;
 }
 
 .healthyText {
@@ -172,28 +172,23 @@ ul {
 }
 
 .healthyImageText a {
-    /* display: block; */
     text-align: center;
-    margin: 5px;
     padding: 10px;
-    background-color: lightcyan;
-    border-radius: 20px;
 }
 
 .healthyImageText {
     background-color: lightgray;
-    padding-right: 20px;
     display: flex;
     align-items: flex-end;
-    width: 320px;
+    width: 230px;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .healthyImages {
-    height: 220px;
-    width: 320px;
+    height: 190px;
+    width: 230px;
     object-fit: cover;
     /* transition: transform .2s;     */
 }
