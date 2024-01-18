@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-flow: nowrap;
     width: 90%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: lightgreen;
 } 
@@ -30,29 +30,39 @@ body {
 }
 
 .leftContainer {
-    justify-content: flex-start;
+    justify-content: center;
     background-color: lightgoldenrodyellow;
 }
 
 .rightContainer {
     justify-content: flex-end;
     background-color: lightgrey;
-    flex-flow: nowrap;
 }
 
 .navLeft, .navRight {
     display: flex;
-    flex-flow: nowrap;
-    justify-content: space-around;
-    flex-basis: 300px;
+    justify-content: space-between;
     align-items: center;
     color: black;
 }
 
-a {
+.navLeft a {
     text-decoration: none;
     font-family: sans-serif;
     color: black;
+}
+
+.navLeft img {
+    height: 90px;
+}
+
+.navRight a {
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    margin-left: 40px;
 }
 
 ul {
