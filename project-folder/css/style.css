@@ -42,7 +42,7 @@ a {
     justify-content: flex-end;
 }
 
-.navLeft, .navRight {
+.navLeft, .navRight, .bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -250,4 +250,12 @@ ul {
     margin: 0px;
     border: 4px solid lightgrey
     /* transition: transform .2s;     */
+}
+
+.bottom a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 20px;
 }
