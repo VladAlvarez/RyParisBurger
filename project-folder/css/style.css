@@ -74,7 +74,7 @@ a {
     background-color: rgb(247, 169, 90);
 }
 
-ul {
+.rightContainer ul {
     list-style: none;
 }
 
@@ -289,8 +289,6 @@ ul {
 
 /* time styles */
 
-
-
 .time, .bengal, .hook, .ingedientsDirections  {
     background-color: lightcoral;
     display: flex;
@@ -343,4 +341,22 @@ ul {
     font-weight: bold;
     font-size: 23px;
     text-align: center;
+}
+
+/* Ingredient and Directions Styles */
+
+.ingredientsDirectionsContainer {
+    justify-content: space-between;
+}
+
+.ingredients {
+    background-color: lightpink;
+}
+
+.directions {
+    background-color: lightsalmon;
+}
+
+.directions li {
+    list-style-type: decimal;
 }
