@@ -283,3 +283,16 @@ ul {
     background-color: rgb(255, 154, 38);
     margin-bottom: 3px;
 }
+
+/* Recipe Page Styles */
+/* Bruh why do I have so much CSS Ithink I have copied code :'( */
+
+.time {
+    background-color: lightcoral;
+    display: flex;
+}
+
+.timeContainer {
+    background-color: lightblue;
+    display: flex;
+}
