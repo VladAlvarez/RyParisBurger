@@ -290,9 +290,27 @@ ul {
 .time {
     background-color: lightcoral;
     display: flex;
+    justify-content: center;
 }
 
 .timeContainer {
     background-color: lightblue;
     display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.smallStuff {
+    background-color: lightcyan;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.smallStuff p {
+    background-color: lightgoldenrodyellow;
+    width: 30%;
+}
+
+.bold {
+    font-weight: bold;
 }
