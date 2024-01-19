@@ -296,7 +296,7 @@ a {
 }
 
 .timeContainer, .bengalContainer, .hookContainer, .ingredientsDirectionsContainer {
-    width: 75%;
+    width: 85%;
     display: flex;
 }
 
@@ -346,11 +346,18 @@ a {
 /* Ingredient and Directions Styles */
 
 .ingredientsDirectionsContainer {
-    justify-content: space-between;
+    justify-content: space-between
+}
+
+.ingredientsContainer {
+    background-color: lightpink;
+    display: flex;
+    padding-right: 125px;
 }
 
 .ingredients {
-    background-color: lightpink;
+    background-color: aqua;
+    width: 400px;
 }
 
 .directions {
