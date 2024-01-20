@@ -290,30 +290,42 @@ a {
 /* time styles */
 
 .time, .bengal, .hook, .ingedientsDirections  {
-    background-color: lightcoral;
     display: flex;
     justify-content: center;
 }
 
 .timeContainer, .bengalContainer, .hookContainer, .ingredientsDirectionsContainer {
-    width: 85%;
+    width: 70%;
     display: flex;
 }
 
+.time {
+    background-color: rgb(191, 199, 208);
+    padding: 18px 0px;
+}
+
 .timeContainer {
-    background-color: lightblue;
     flex-direction: column;
+    margin: 0px;
+    padding-top: 8px;
+}
+
+.time h3 {
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 10px;
 }
 
 .smallStuff {
-    background-color: lightcyan;
     display: flex;
     flex-wrap: wrap;
 }
 
 .smallStuff p {
-    background-color: lightgoldenrodyellow;
     width: 30%;
+    font-size: 18px;
+    margin: 0px;
+    padding: 8px 0px;
 }
 
 .bold {
@@ -329,39 +341,34 @@ a {
 /* Hook Styles */
 
 .hook {
-    background-color: lightgray;
+    margin: 27px 0px;
 }
 
 .hookContainer {
-    background-color: lightgreen;
+    background-color: rgb(191, 199, 208);
 }
 
 .hookContainer p {
     padding: 0px 60px;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 25px;
     text-align: center;
 }
 
 /* Ingredient and Directions Styles */
 
 .ingredientsDirectionsContainer {
-    justify-content: space-between
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .ingredientsContainer {
-    background-color: lightpink;
     display: flex;
-    padding-right: 125px;
+    padding-right: 115px;
 }
 
 .ingredients {
-    background-color: aqua;
     width: 400px;
-}
-
-.directions {
-    background-color: lightsalmon;
 }
 
 .directions li {
