@@ -370,3 +370,8 @@ a {
 .directions li {
     list-style-type: decimal;
 }
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+}
